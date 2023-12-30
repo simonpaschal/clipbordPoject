@@ -1,0 +1,332 @@
+*{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#clipboard_section:nth-of-type(1){
+    display: none;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.icon_copyright{
+    display: flex;
+   justify-content: center;
+}
+.copyright{
+    fill:hsl(171, 66%, 44%);
+    font-size: 300px;
+}
+.history_info{
+    display: flex;
+    margin: 5vw 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.primary_heading{
+    font-size: 6vw;
+    color:  hsl(210, 10%, 33%);
+    font-weight: 600;
+    text-align: center;
+}
+.paragraph{
+    font-size: 3.8vw;
+    color:  hsl(201, 11%, 66%);
+    font-weight: 400;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn button{
+    margin: 4vw 0.4rem 0px 0.4rem;
+    border-radius: 1.9rem;
+    font-size: 3.5vw;
+    padding: 0.8rem;
+    color: #fff;
+    border: hidden;
+    cursor: pointer;
+}
+.btn button:nth-of-type(1):hover{
+    box-shadow: 3px 3px 5px hsl(171, 70%, 20%);
+}.btn button:nth-of-type(2):hover{
+    box-shadow: 3px 3px 5px hsl(233, 56%, 28%);
+}
+.btn button:nth-of-type(1){
+    background-color:  hsl(171, 66%, 44%);
+}
+.btn button:nth-of-type(2){
+    background-color: hsl(233, 100%, 69%);
+}
+#track_section .primary_heading{
+    font-size: 5vw;
+    margin-top: 15vw;
+}
+#track_section .paragraph{
+    font-size: 3.2vw;
+}
+/*#monitor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}*/
+#monitor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.image_computer{
+    width: 45vw;
+    height: 35vw;
+    position: relative;
+    /*right: 4vw;*/
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    padding: 10vw 1vw;
+    /*padding: 0rem 1rem;*/
+    text-align: center;
+    /*text-align: left;*/
+}
+.img2 img{
+    height: 35vw;
+    width: 45vw;
+} 
+#logos{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    /* flex-direction:row*/
+}
+#logos div{
+    padding: 7vw 0px;
+    display: flex;
+    justify-content: center;
+}
+#logos img{
+    width: 55%;
+    height: 15vw;
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.primary_paragraph{
+    font-size: 0.9rem;
+    color:  hsl(201, 11%, 66%);
+    font-weight: 400;
+    margin-bottom: 4vw;
+}
+#clipboard_ios{
+    text-align: center;
+}
+#clipboard_section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;  
+  margin: 13vw 0px 0px 0px;
+}
+#super_charge{
+}
+#super_charge .title{
+    font-size: 5.5vw;
+    margin-bottom: 2.5vw;
+}
+#super_charge .paragraph{
+    font-size: 3.5vw;
+}
+#information{
+    flex-direction: column;
+    margin: 15vw 0px 0px 0px;
+}
+#information div{
+   padding: 0px 3vw;
+   /*max-width:25%;*/
+}
+#information .paragraph{
+    font-size: 3.65vw;
+}
+#information .title{
+    font-size: 5vw;
+}
+#logos{
+    display: flex; 
+    justify-content: space-between;
+}
+#clipboard_ios{
+    margin: 15vw 0px 0px 0px;
+}
+#clipboard_ios .paragraph{
+   font-size: 3.8vw; 
+}
+#footer{ 
+    margin: 15vw 0px 0px 0px;
+    flex-direction: column;
+    /*flex-direction: row;*/ 
+    align-items: center;
+    /*justify-content: space-around;*/
+}
+#footer section{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#footer div{
+    cursor: pointer;
+}
+#footer .icons_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#footer #footer_copyright{
+    border-radius: 50%;
+    border: 2px solid rgb(24, 114, 114);
+    width: 15vw;
+    height: 15vw;
+    margin: 3vw 0px;
+}
+#footer .footer_icon{
+    border: 2px solid rgb(24, 114, 114);
+    width: 8vw;
+    height: 8vw;
+}
+/* *** Media query for middle range devices *** */
+@media screen and (min-width: 380px){
+    #section_01{
+        
+    }
+    #section_02{
+        
+    }
+    #track_section .primary_heading{
+        font-size: 3.2vw;
+        margin-top: 8vw;
+    }
+    #track_section .paragraph{
+        font-size: 2vw;
+    }
+    #monitor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+    .image_computer{
+        right: 4vw;
+        width: 100vw;
+    }
+    .description{
+        padding: 0rem 1rem;
+        text-align: left;
+    }
+    .title{
+        font-size: 3.5vw;
+    }
+    .paragraph{
+        font-size: 2vw;
+    }
+    .primary_paragraph{
+        font-size: 1.7vw;
+    }
+    .primary_heading{
+        font-size: 3.3vw;
+    }
+    .btn button{
+        font-size: 2vw;
+    }
+    #information{
+        display: flex; 
+        flex-direction: row;
+        align-items: baseline;
+        margin: 0px;
+    }
+    #information div{
+       padding: 0px 3vw;
+       /*max-width:25%;*/
+    }
+    #information .paragraph{
+        font-size: 1.9vw;
+    }
+    #information .title{
+        font-size: 2.5vw;
+    }
+     #super_charge{
+    }
+    #super_charge .title{
+        font-size: 3.5vw;
+    }
+    #super_charge .paragraph{
+        font-size: 1.9vw;
+    }
+    #logos{
+        flex-direction:row;
+    }
+    #logos div{
+        padding: 2vw;
+        display: flex;
+        justify-content: center;
+    }
+    #logos img{
+        width: 60%;
+        height: 5vw;
+    }
+    #clipboard_ios{
+        margin-top: 5vw;
+    }
+    #clipboard_section{
+        margin-top: 5vw;
+    }
+    #clipboard_ios .title{
+        font-size: 3vw;
+    }
+    #clipboard_ios .paragraph{
+        font-size: 1.9vw;
+    }
+    #footer{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+        margin: 15vw 0px 0px 0px;
+    }
+    #footer .icons_container{
+        display: flex;
+    }
+    #footer #footer_copyright{
+        border-radius: 50%;
+        width: 6vw;
+        height: 6vw;
+        position: relative;
+        top: -2vw;
+    }
+    #footer .footer_icon{
+        width: 5vw;
+        height: 4vw;
+        position: relative;
+        top: -2vw;
+    }
+    #first_history_info{
+         padding: 0px 20vw;
+    }
+    #track_section{
+        padding: 0px 20vw;
+    }
+    #clipboard_section{
+        padding: 0px 20vw;
+    }
+    #clipboard_ios{
+        padding: 0px 20vw;
+    }
+}
+/* *** Media query for middle range devices *** */
+@media screen and (min-width: 1000px){
+
+} 
